@@ -1,0 +1,30 @@
+.griftbooks-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://assets.teenvogue.com/photos/5e6bffbbdee1770008c6d9bd/16:9/w_2560%2Cc_limit/GettyImages-577674005.jpg');
+}
+.griftbooks-section h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.griftbooks-section-2 h1 {
+    color: #313131;
+        font-weight: 600;
+}
+.griftbooks-section-h1 {
+    display: flex;
+        justify-content: center;
+}
+.griftbooks-section-2 button {
+    height: 50px;
+    width: 100px;
+    background-color: #5798ff;
+    border: 1px solid #5798ff;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 50px;
+    cursor: pointer;
+}

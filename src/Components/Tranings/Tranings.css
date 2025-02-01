@@ -1,0 +1,30 @@
+.trainings-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://lingl.ru/upload/iblock/42b/42b264c4eb4caf34607d5616439a175a.jpg');
+}
+.trainings-section h1 {
+    font-size: 50px;
+    color: #0d0d0d;
+}
+.trainings-section-2 h1 {
+    color: #313131;
+        font-weight: 600;
+}
+.trainings-section-h1 {
+    display: flex;
+        justify-content: center;
+}
+.trainings-section-2 button {
+    height: 50px;
+    width: 100px;
+    background-color: #5798ff;
+    border: 1px solid #5798ff;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 50px;
+    cursor: pointer;
+}

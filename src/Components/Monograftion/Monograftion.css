@@ -1,0 +1,30 @@
+.monograftion-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://vyuchit.work/wp-content/uploads/2017/07/Fotolia_4244474_Subscription_Monthly_XL.jpg');
+}
+.monograftion-section h1 {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+.monograftion-section-2 h1 {
+    color: #313131;
+        font-weight: 600;
+}
+.monograftion-section-h1 {
+    display: flex;
+        justify-content: center;
+}
+.monograftion-section-2 button {
+    height: 50px;
+    width: 100px;
+    background-color: #5798ff;
+    border: 1px solid #5798ff;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 50px;
+    cursor: pointer;
+}

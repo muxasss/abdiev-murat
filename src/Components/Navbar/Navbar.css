@@ -1,0 +1,234 @@
+
+  /* Адаптивность для мобильных устройств */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex; /* Показывать гамбургер */
+    }
+  
+    .menu {
+      position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 75%;
+        background-color: #001f3f;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        transform: translateX(0%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 100;
+        overflow-y: auto;
+        
+    }
+  
+    .menu.open {
+      display: flex; 
+    }
+  
+    .menu-item {
+      width: 100%;
+      text-align: center;
+
+    }
+  
+    .menu-item.dropdown:hover .dropdown-menu {
+      display: none;
+    }
+  
+    .menu-item.dropdown:active .dropdown-menu {
+      display: block;
+    }
+  
+    .navbar {
+      padding: 15px;
+    }
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.5);
+      }
+      
+      .all-textmenu {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        color: #0074D9;
+      }
+      
+    
+    .navbar img {
+      height:100px;
+    }
+    
+    .hamburger {
+      flex-direction: column;
+      justify-content: space-between;
+      height: 35px;
+      cursor: pointer;
+    }
+    
+  
+    .hamburger .bar {
+      height: 4px;
+      background-color: white;
+      border-radius: 2px;
+    }
+  
+    .menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 5;
+      justify-content: flex-start;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    /* Меню открыто */
+
+    
+    /* Элементы меню */
+    .menu-item {
+      margin: 0 15px;
+    }
+    
+    .menu-link {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+    }
+    
+    .menu-link:hover {
+      /* background-color: #555; */
+      border-radius: 4px;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* Стили для десктопных устройств: скрыть гамбургер и скрыть меню */
+  @media (min-width: 769px) {
+    .hamburger {
+        display: none;
+      }
+      .close {
+        /* position: absolute;
+        top: 20px;
+        left: 20px;
+        cursor: pointer;
+        color: #fff;
+        z-index: 10;  */
+      }
+    .navbar {
+      /* padding: 15px; */
+      position: fixed;
+    }
+    .navbar {
+      background-color: rgba(116, 116, 116, 0.7); 
+      width: 100%;
+      
+      }
+      
+      .all-textmenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+    
+    .navbar img {
+      height:100px;
+    }
+  
+    .menu {
+      list-style-type: none;
+      /* padding: 0;
+      margin: 0; */
+      display: flex;
+
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      transition: all 0.3s ease-in-out;
+    }
+    
+    /* Меню открыто */
+    
+    /* Элементы меню */
+    .menu-item {
+      margin: 0 30px;
+      font-weight: 600;
+      
+    }
+    
+    .menu-link {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+      font-weight: 600;
+    }
+    
+    .menu-link:hover {
+      border-radius: 4px;
+      text-decoration: underline;
+    }
+  }
+
+    /* Стили для выпадающего меню */
+.menu-item.dropdown {
+  position: relative; /* Для правильного позиционирования подменю */
+}
+
+.dropdown-menu {
+  display: none; /* Скрыто по умолчанию */
+  position: absolute;
+  top: 100%; /* Располагается под родительским элементом */
+  left: 0;
+  background-color: #001f3f; /* Цвет фона подменю */
+  padding: 10px 0;
+  list-style: none;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Тень для подменю */
+  z-index: 100;
+  min-width: 200px; /* Минимальная ширина для подменю */
+}
+
+.dropdown-menu .dropdown-link {
+  color: #fff; /* Цвет текста */
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-menu .dropdown-link:hover {
+  /* background-color: #0074D9;  */
+}
+
+/* Показ подменю при наведении */
+.menu-item.dropdown:hover .dropdown-menu {
+  display: block; /* Показываем подменю */
+  animation: dropdownSlide 0.3s ease; /* Анимация при открытии */
+}
+
+/* Анимация открытия подменю */
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,113 @@
+/* Общие стили */
+.zvanie-body {
+    background-color: #fff;
+}
+  .start {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    background-color: #001f3f;
+  }
+  .h1-s {
+    font-size: 40px;
+    color: #fff;
+  }
+  h1 {
+    text-align: center;
+    /* font-size: 30px; */
+    margin-top: 30px;
+    /* margin-top: auto; */
+    /* padding-top: 200px; */
+    color: #000000;
+    font-weight: bold;
+    /* padding: 10px 0; */
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center; */
+  }
+  
+  /* Контейнер для дипломов */
+  .zvanie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Автоматическое заполнение пространства */
+    gap: 50px;
+    justify-items: center;
+    margin-top: 50px; /* Отступ от текста */
+    /* padding: 20px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Карточки */
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+  }
+  .h1-1 {
+    color: rgb(21, 21, 21);
+    font-weight: 600;
+
+  }
+  .h1-2 {
+    display: flex;
+    justify-content: center;
+  }
+  /* Эффекты при наведении */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  .section2 {
+    line-height: 3.5;
+    
+  }
+  .section2 h2 {
+    color: #313131;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 50px;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .section2 button {
+    height: 50px;
+    width: 100px;
+    background-color: #5798ff;
+    border: 1px solid #5798ff;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  /* Адаптивность */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
