@@ -27,11 +27,14 @@
 .all {
     display: flex;
     justify-content: space-around;
-    
+    /* margin-top: -50px; */
 }
+
 .icon {
     color: rgb(0, 80, 185);
     font-size: 50px;
+    padding-top: 80px;
+    padding-left: 150px;
 }
 
 

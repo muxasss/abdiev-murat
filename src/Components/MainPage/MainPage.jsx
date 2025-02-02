@@ -18,13 +18,13 @@ const MainPage = () => {
 
       <section className='section2'>
         <div className='all'>
-            <LuGoal className='icon' />
           <div>
+            <LuGoal className='icon' />
             <h1>Экономист с 25 летним опытом</h1>
             <p>Я квалифицированный преподаватель, <br /> передающий знания и опыт.</p>
           </div>
-            <GiTeacher className='icon' />
           <div>
+            <GiTeacher className='icon' />
             <h1>Современный метод обучения</h1>
             <p>Современное обучение сочетает <br /> традиции и инновации, вовлекая <br /> студентов в процесс создания знаний.</p>
           </div>
