@@ -4,7 +4,7 @@ const Resume = () => {
   return (
     <div>
       <section className='resume-section'>
-      <h1>Обо мне</h1>
+
         
       </section>
       

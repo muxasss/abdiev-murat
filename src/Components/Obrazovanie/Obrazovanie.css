@@ -4,30 +4,39 @@
     justify-content: center;
     align-items: center;
     background: url('https://blog.karpachoff.com/img/child/6137488cee1d9.jpg');
+    background-size: cover;
+    background-position: center;
 }
+
 .obrazovanie-section h1 {
     font-size: 50px;
     color: #ffffff;
 }
+
 .obrazovanie-section-2 {
     height: 500px;
+    padding: 0 20px;
 }
+
 .obrazovanie-section-2 h1 {
     color: #313131;
-        font-weight: 600;
+    font-weight: 600;
 }
+
 .obrazovanie-section-2 h2 {
     color: #313131;
-        font-weight: 600;
-        font-size: 26.5px;
-        margin-left: 50px;
-        width: 60%;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 26.5px;
+    margin-left: 50px;
+    width: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .obrazovanie-section-h1 {
     display: flex;
-        justify-content: center;
+    justify-content: center;
 }
+
 .obrazovanie-section-2 button {
     height: 50px;
     width: 100px;
@@ -38,4 +47,79 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.obrazovanie-section-2 button:hover {
+    background-color: #4679d0;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .obrazovanie-section {
+        height: 300px;
+    }
+
+    .obrazovanie-section h1 {
+        font-size: 35px;
+    }
+
+    .obrazovanie-section-2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .obrazovanie-section-2 h1 {
+        font-size: 24px;
+    }
+
+    .obrazovanie-section-2 h2 {
+        font-size: 22px;
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .obrazovanie-section-2 button {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .obrazovanie-section {
+        height: 250px;
+    }
+
+    .obrazovanie-section h1 {
+        font-size: 28px;
+    }
+
+    .obrazovanie-section-2 {
+        height: auto;
+        padding: 10px;
+    }
+
+    .obrazovanie-section-2 h1 {
+        font-size: 20px;
+    }
+
+    .obrazovanie-section-2 h2 {
+        font-size: 20px;
+        /* margin-left: 50px; */
+        padding-left: 30px;
+        /* width: 100%; */
+    }
+
+    .obrazovanie-section-2 button {
+        height: 50px;
+        width: 100px;
+        background-color: #5798ff;
+        border: 1px solid #5798ff;
+        font-size: 17px;
+        color: #fff;
+        font-weight: 700;
+        margin-left: 50px;
+        cursor: pointer;
+    }
 }

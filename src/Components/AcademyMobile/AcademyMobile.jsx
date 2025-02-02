@@ -4,7 +4,7 @@ const AcademyMobile = () => {
   return (
     <div>
         <section className='academymobyle-section'>
-      <h1>Академическая мобильность</h1>
+
         
       </section>
       <section className='academymobyle-section-2'>

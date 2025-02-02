@@ -83,7 +83,7 @@
   }
   .zvanie-section2 {
     line-height: 3.5;
-    height: 600px;
+    height: 830px;
   }
   .zvanie-section2 h2 {
     color: #313131;
@@ -103,6 +103,7 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
+  
   }
   /* Адаптивность */
   @media (max-width: 768px) {

@@ -4,7 +4,7 @@ const Tranings = () => {
   return (
     <div>
          <section className='trainings-section'>
-      <h1>Проведение гостевых семирнаров и лекций</h1>
+
         
       </section>
       <section className='trainings-section-2'>

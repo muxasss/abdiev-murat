@@ -5,7 +5,7 @@ const Scopus = () => {
   return (
     <div>
          <section className='scopus-section'>
-      <h1>Научные статьи Scopus</h1>
+
         
       </section>
       <section className='nauchtrud-section-2'>

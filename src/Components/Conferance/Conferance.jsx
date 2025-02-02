@@ -4,7 +4,6 @@ const Conferance = () => {
   return (
     <div>
       <section className='conferance-section'>
-      <h1>Участие в научных конференциях и форумах</h1>
         
       </section>
       <section className='conferance-section-2'>

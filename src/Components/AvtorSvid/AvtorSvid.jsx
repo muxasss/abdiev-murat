@@ -6,7 +6,7 @@ const AvtorSvid = () => {
   return (
     <div>
       <section className='avtorsvid-section'>
-      <h1>Авторские свидетельства</h1>
+
         
       </section>
       <section className='avtorsvid-section-2'>

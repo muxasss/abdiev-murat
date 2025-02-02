@@ -4,7 +4,7 @@ const Dissertations = () => {
   return (
     <div>
        <section className='dissertations-section'>
-      <h1>Руководство диссертацией</h1>
+
         
       </section>
       <section className='dissertations-section-2'>

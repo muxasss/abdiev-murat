@@ -5,7 +5,7 @@ const Monograftion = () => {
   return (
     <div>
          <section className='monograftion-section'>
-      <h1>Монографии</h1>
+
         
       </section>
       <section className='monograftion-section-2'>

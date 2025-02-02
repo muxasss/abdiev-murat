@@ -4,7 +4,7 @@ const Opposition = () => {
   return (
     <div>
         <section className='opposition-section'>
-      <h1>Оппонирование диссертаций</h1>
+
         
       </section>
       <section className='opposition-section-2'>

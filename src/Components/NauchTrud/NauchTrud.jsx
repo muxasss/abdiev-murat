@@ -4,7 +4,7 @@ const NauchTrud = () => {
   return (
     <div>
        <section className='nauchtrud-section'>
-      <h1>Научные статьи</h1>
+
         
       </section>
       <section className='nauchtrud-section-2'>

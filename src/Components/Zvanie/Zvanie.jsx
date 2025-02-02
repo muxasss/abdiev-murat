@@ -16,7 +16,7 @@ const Zvanie = () => {
       <div className="zvanie-page">
         <section className='start'>
 
-        <h1 className='h1-s'>Научная степень и звание</h1>
+
         </section>
         <section className='zvanie-section2'>
            

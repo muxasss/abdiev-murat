@@ -4,24 +4,30 @@
     justify-content: center;
     align-items: center;
     background: url('https://infullbroker.ru/upload/c051358e-f1fe-4d4e-b569-f78f076edde1.webp');
+    background-size: cover;
+    background-position: center;
 }
+
 .organization-section1 h1 {
     font-size: 45px;
+    color: #ffffff; /* добавлено для лучшего контраста */
 }
 
 .organization-section2 {
     height: 400px;
 }
+
 .organization-section-h1 h1 {
     color: #313131;
     font-weight: 600;
 }
+
 .organization-section-h1 {
     display: flex;
     justify-content: center;
 }
-.organization-section2 h2 {
 
+.organization-section2 h2 {
     color: #313131;
     font-weight: 600;
     font-size: 22px;
@@ -41,4 +47,65 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
-  }
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .organization-section1 {
+        height: 300px;
+    }
+
+    .organization-section1 h1 {
+        font-size: 35px;
+    }
+
+    .organization-section2 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .organization-section2 h2 {
+        font-size: 18px;
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .organization-section2 button {
+        width: 80%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .organization-section1 {
+        height: 250px;
+    }
+
+    .organization-section1 h1 {
+        font-size: 28px;
+    }
+
+    .organization-section2 {
+        height: auto;
+        padding: 10px;
+    }
+
+    .organization-section2 h2 {
+        font-size: 16px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .organization-section2 button {
+        height: 50px;
+        width: 100px;
+        background-color: #5798ff;
+        border: 1px solid #5798ff;
+        font-size: 17px;
+        color: #fff;
+        font-weight: 700;
+        margin-left: 50px;
+        cursor: pointer;
+      }
+}

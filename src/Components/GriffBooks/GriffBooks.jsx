@@ -4,7 +4,7 @@ const GriffBooks = () => {
   return (
     <div>
         <section className='griftbooks-section'>
-      <h1>Учебные книги и <br></br>пособия с грифом</h1>
+
         
       </section>
       <section className='griftbooks-section-2'>

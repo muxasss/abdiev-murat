@@ -4,7 +4,7 @@ const NIRS = () => {
   return (
     <div>
        <section className='nirs-section'>
-      <h1>Руководство НИРС</h1>
+
         
       </section>
       <section className='nirs-section-2'>

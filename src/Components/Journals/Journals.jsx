@@ -4,7 +4,7 @@ const Journals = () => {
   return (
     <div>
         <section className='journals-section'>
-      <h1>Членство в научных журналах</h1>
+
         
       </section>
       <section className='journals-section-2'>

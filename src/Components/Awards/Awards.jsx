@@ -4,7 +4,7 @@ const Awards = () => {
   return (
     <div>
       <section className='Awards-section'>
-      <h1>Награды</h1>
+
         
       </section>
       <section className='Awards-section2'>

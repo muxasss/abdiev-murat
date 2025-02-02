@@ -4,7 +4,7 @@ const Seminar = () => {
   return (
     <div>
         <section className='seminar-section'>
-      <h1>Участие в семинарах и тренингах</h1>
+
         
       </section>
       <section className='seminar-section-2'>
