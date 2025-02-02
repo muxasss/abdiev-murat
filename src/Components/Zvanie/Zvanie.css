@@ -81,10 +81,20 @@
     transform: translateY(-10px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   }
+  
+  @media (min-width: 769px) {
+
+    .zvanie-section2 {
+      line-height: 3.5;
+      height: 530px;
+    }
+}
+@media (max-width: 768px) {
   .zvanie-section2 {
     line-height: 3.5;
     height: 830px;
   }
+}
   .zvanie-section2 h2 {
     color: #313131;
     font-weight: 600;

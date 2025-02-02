@@ -9,8 +9,16 @@
     font-size: 50px;
     color: #ffffff;
 }
-.journals-section-2 {
-    height: 950px;
+@media (min-width: 769px) {
+
+    .journals-section-2 {
+        height: 500px;
+    }
+}
+@media (max-width: 768px) {
+    .journals-section-2 {
+        height: 950px;
+    }
 }
 .journals-section-2 h1 {
     color: #313131;
