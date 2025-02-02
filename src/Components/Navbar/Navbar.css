@@ -159,6 +159,7 @@
     background-color: #173862;
     box-shadow: none;
     font-size: 19px;
+    color: #ccc;
   }
 
   .menu-item.dropdown:hover .dropdown-menu {
