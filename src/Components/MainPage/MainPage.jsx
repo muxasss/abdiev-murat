@@ -13,7 +13,7 @@ const MainPage = () => {
   return (
     <div>
       <section className='section1'>
-        <img src='muratphoto1.jpg' alt="Главное изображение" />
+        {/* <img src='muratphoto1.jpg' alt="Главное изображение" /> */}
       </section>
 
       <section className='section2'>
