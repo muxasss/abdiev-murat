@@ -81,11 +81,11 @@
     transform: translateY(-10px);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   }
-  .section2 {
+  .zvanie-section2 {
     line-height: 3.5;
     height: 1300px;
   }
-  .section2 h2 {
+  .zvanie-section2 h2 {
     color: #313131;
     font-weight: 600;
     font-size: 22px;
@@ -93,7 +93,7 @@
     width: 60%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  .section2 button {
+  .zvanie-section2 button {
     height: 50px;
     width: 100px;
     background-color: #5798ff;
