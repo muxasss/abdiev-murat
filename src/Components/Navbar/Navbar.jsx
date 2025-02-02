@@ -57,9 +57,12 @@ const Navbar = () => {
 
           <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
             <li>
+              <div className="div">
+
               <Link to="/" className="menu-link">
                 ГЛАВНАЯ
               </Link>
+              </div>
             </li>
             <li
               className="menu-item dropdown"
@@ -67,9 +70,12 @@ const Navbar = () => {
               onMouseLeave={!isMobile ? () => setIsAboutDropdownOpen(false) : undefined}
               onClick={isMobile ? () => toggleDropdown(setIsAboutDropdownOpen, isAboutDropdownOpen) : undefined}
             >
+              <div className="div">
+
               <Link className="menu-link">
                 ОБО МНЕ
               </Link>
+              </div>
               {isAboutDropdownOpen && (
                 <ul className="dropdown-menu">
                   <li>
@@ -95,6 +101,16 @@ const Navbar = () => {
                   <li>
                     <Link to="awards" className="dropdown-link">
                       Награды
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="conferance" className="dropdown-link">
+                      Участие в научных конференциях и форумах
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="journals" className="dropdown-link">
+                      Членство в научных журналах
                     </Link>
                   </li>
                 </ul>
@@ -175,16 +191,7 @@ const Navbar = () => {
                       Руководство НИРС
                     </Link>
                   </li>
-                  <li>
-                    <Link to="conferance" className="dropdown-link">
-                      Участие в научных конференциях и форумах
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="journals" className="dropdown-link">
-                      Членство в научных журналах
-                    </Link>
-                  </li>
+                  
                 </ul>
               )}
             </li>

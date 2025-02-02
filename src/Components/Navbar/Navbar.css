@@ -136,10 +136,12 @@
   .menu-item {
     margin: 20px 0;
     text-align: center;
+    line-height: 1;
+
   }
 
   .menu-link {
-    font-size: 1.5em;
+    
     padding: 20px;
   }
 
@@ -150,7 +152,7 @@
   }
 
   .dropdown-link {
-    padding: 15px;
+    padding: 15px;  
   }
 }
 
