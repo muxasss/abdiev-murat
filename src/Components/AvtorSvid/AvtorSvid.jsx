@@ -11,7 +11,7 @@ const AvtorSvid = () => {
       </section>
       <section className='avtorsvid-section-2'>
         <div className='avtorsvid-section-h1'>
-        <h1>СПИСОК АВТОРСКИХ СВИДЕТЕЛЬСТВ АБДИЕВ МУРАТ</h1>
+        <h1>СПИСОК АВТОРСКИХ СВИДЕТЕЛЬСТВ</h1>
         </div>
         <a target='blank' href='Список автор.свид. Абдиев М.Ж..pdf'>
         <button>PDF</button>

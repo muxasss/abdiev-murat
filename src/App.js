@@ -20,6 +20,8 @@ import Opposition from './Components/Opposition/Opposition';
 import NIRS from './Components/NIRS/NIRS';
 import AcademyMobile from './Components/AcademyMobile/AcademyMobile';
 import NavFooter from './Components/NavFooter/NavFooter';
+import Seminar from './Components/Seminar/Seminar';
+import Journals from './Components/Journals/Journals';
 
 function App() {
   return (
@@ -44,6 +46,8 @@ function App() {
         <Route path='/opposition' element={<Opposition />} />
         <Route path='/nirs' element={< NIRS />} />
         <Route path='/academymobile' element={< AcademyMobile />} />
+        <Route path='/seminar' element={<Seminar />} />
+        <Route path='/journals' element={<Journals />} />
       </Routes>
     <NavFooter />
     </Router>

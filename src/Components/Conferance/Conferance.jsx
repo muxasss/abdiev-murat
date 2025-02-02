@@ -9,7 +9,7 @@ const Conferance = () => {
       </section>
       <section className='conferance-section-2'>
         <div className='conferance-section-h1'>
-        <h1>КОНФЕРЕНЦИИ И ФОРУМЫ АБДИЕВ МУРАТ</h1>
+        <h1>КОНФЕРЕНЦИИ И ФОРУМЫ</h1>
         </div>
         <a target='blank' href='Участие в конференциях, форумах (2).pdf'>
         <button>PDF</button>

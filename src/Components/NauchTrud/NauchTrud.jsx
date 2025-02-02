@@ -9,7 +9,7 @@ const NauchTrud = () => {
       </section>
       <section className='nauchtrud-section-2'>
         <div className='Awards-section-h1'>
-        <h1>СПИСОК НАУЧНЫХ ТРУДОВ АБДИЕВ МУРАТ</h1>
+        <h1>СПИСОК НАУЧНЫХ СТАТЬЕЙ</h1>
         </div>
         <a target='blank' href='Список науч.трудов Абдиев М..pdf'>
         <button>PDF</button>

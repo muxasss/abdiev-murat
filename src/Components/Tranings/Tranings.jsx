@@ -9,7 +9,7 @@ const Tranings = () => {
       </section>
       <section className='trainings-section-2'>
         <div className='trainings-section-h1'>
-        <h1>ГОСТЕВЫЕ ЛЕКЦИИ, СЕМИНАРЫ АБДИЕВ МУРАТ</h1>
+        <h1>ГОСТЕВЫЕ ЛЕКЦИИ, СЕМИНАРЫ</h1>
         </div>
         <a target='blank' href='Гостевые лекции, семинары.pdf'>
         <button>PDF</button>

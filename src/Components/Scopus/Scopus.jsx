@@ -10,7 +10,7 @@ const Scopus = () => {
       </section>
       <section className='nauchtrud-section-2'>
         <div className='Awards-section-h1'>
-        <h1>СПИСОК НАУЧНЫХ ТРУДОВ SCOPUS АБДИЕВ МУРАТ</h1>
+        <h1>СПИСОК НАУЧНЫХ ТРУДОВ "SCOPUS"</h1>
         </div>
         <a target='blank' href='Список_науч_трудов_СКОПУС_Абдиев_М_.pdf'>
         <button>PDF</button>

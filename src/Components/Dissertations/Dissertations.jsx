@@ -9,7 +9,7 @@ const Dissertations = () => {
       </section>
       <section className='dissertations-section-2'>
         <div className='dissertations-section-h1'>
-        <h1>НАУЧНОЕ РУКОВОДСТВО АБДИЕВ МУРАТ</h1>
+        <h1>НАУЧНОЕ РУКОВОДСТВО</h1>
         </div>
         <a target='blank' href='Научное руководство.pdf'>
         <button>PDF</button>

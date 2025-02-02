@@ -10,7 +10,7 @@ const Monograftion = () => {
       </section>
       <section className='monograftion-section-2'>
         <div className='monograftion-section-h1'>
-        <h1>СПИСОК МОНОГРАФИЙ АБДИЕВ МУРАТ</h1>
+        <h1>СПИСОК МОНОГРАФИЙ</h1>
         </div>
         <a target='blank' href='Список монографий Абдиев М.Ж..pdf'>
         <button>PDF</button>

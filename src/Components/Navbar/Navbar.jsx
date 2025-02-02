@@ -151,23 +151,38 @@ const Navbar = () => {
               onClick={isMobile ? () => toggleDropdown(setIsResearchDropdownOpen, isResearchDropdownOpen) : undefined}
             >
               <Link className="menu-link">
-                ПРОВЕДЕНИЕ И РУКОВОДСТВО <br></br> В НАУЧНЫХ ИССЛЕДОВАНИЯХ
+              НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ <br></br> ДЕЯТЕЛЬНОСТЬ
               </Link>
               {isResearchDropdownOpen && (
                 <ul className="dropdown-menu">
                   <li>
                     <Link to="dissertations" className="dropdown-link">
-                      Руководство диссертаций
+                      Научное руководство диссертаций
                     </Link>
                   </li>
                   <li>
-                    <Link to="research/opponents" className="dropdown-link">
-                      Оппоненство
+                    <Link to="opposition" className="dropdown-link">
+                      Оппонирование диссертаций
                     </Link>
                   </li>
                   <li>
                     <Link to="tranings" className="dropdown-link">
                       Проведение гостевых лекций, семинаров и тренингов
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="nirs" className="dropdown-link">
+                      Руководство НИРС
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="conferance" className="dropdown-link">
+                      Участие в научных конференциях и форумах
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="journals" className="dropdown-link">
+                      Членство в научных журналах
                     </Link>
                   </li>
                 </ul>
@@ -179,43 +194,10 @@ const Navbar = () => {
               onMouseLeave={!isMobile ? () => setIsMobilityDropdownOpen(false) : undefined}
               onClick={isMobile ? () => toggleDropdown(setIsMobilityDropdownOpen, isMobilityDropdownOpen) : undefined}
             >
-              <Link className="menu-link">
-                НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ <br></br> ДЕЯТЕЛЬНОСТЬ
+              <Link to="academymobile" className="menu-link">
+                АКАДЕМИЧЕСКАЯ МОБИЛЬНОСТЬ
               </Link>
-              {isMobilityDropdownOpen && (
-                <ul className="dropdown-menu">
-                  <li>
-                    <Link to="conferance" className="dropdown-link">
-                      Участие в научных конференциях и форумах
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="mobility/conferences" className="dropdown-link">
-                      Членство в научных журналах
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="dissertations" className="dropdown-link">
-                      Научное руководство диссертации
-                    </Link>
-                  </li>
-                  <li>
-                  <Link to="opposition" className="dropdown-link">
-                      Оппонирование диссертаций
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="nirs" className="dropdown-link">
-                      Руководство НИРС
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="academymobile" className="dropdown-link">
-                      Академическая мобильность
-                    </Link>
-                  </li>
-                </ul>
-              )}
+              
             </li>
             <li
               className="menu-item dropdown"
@@ -223,18 +205,9 @@ const Navbar = () => {
               onMouseLeave={!isMobile ? () => setIsSeminarsDropdownOpen(false) : undefined}
               onClick={isMobile ? () => toggleDropdown(setIsSeminarsDropdownOpen, isSeminarsDropdownOpen) : undefined}
             >
-              <Link className="menu-link">
+              <Link to='seminar' className="menu-link">
                 УЧАСТИЕ В СЕМИНАРАХ <br></br> И ТРЕНИНГАХ
               </Link>
-              {isSeminarsDropdownOpen && (
-                <ul className="dropdown-menu">
-                  <li>
-                    <a target="blank" href="https://edu.gov.kg/" className="dropdown-link">
-                      МОиНКР
-                    </a>
-                  </li>
-                </ul>
-              )}
             </li>
           </ul>
         </div>

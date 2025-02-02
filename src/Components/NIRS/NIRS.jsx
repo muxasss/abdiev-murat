@@ -9,7 +9,7 @@ const NIRS = () => {
       </section>
       <section className='nirs-section-2'>
         <div className='nirs-section-h1'>
-        <h1>РУКОВОДСТВО НИРС АБДИЕВ МУРАТ</h1>
+        <h1>РУКОВОДСТВО НИРС</h1>
         </div>
         <a target='blank' href='Руководство НИРС (2).pdf'>
         <button>PDF</button>

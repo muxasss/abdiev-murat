@@ -9,7 +9,7 @@ const AcademyMobile = () => {
       </section>
       <section className='academymobyle-section-2'>
         <div className='academymobyle-section-h1'>
-        <h1>АКАДЕМИЧЕСКАЯ МОБИЛЬНОСТЬ АБДИЕВ МУРАТ</h1>
+        <h1>АКАДЕМИЧЕСКАЯ МОБИЛЬНОСТЬ</h1>
         </div>
         <a target='blank' href='Академич.мобильность (2).pdf'>
         <button>PDF</button>

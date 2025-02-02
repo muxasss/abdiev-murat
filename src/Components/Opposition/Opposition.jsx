@@ -9,7 +9,7 @@ const Opposition = () => {
       </section>
       <section className='opposition-section-2'>
         <div className='opposition-section-h1'>
-        <h1>ОППОНИРОВАНИЕ ДИССЕРТАЦИЙ АБДИЕВ МУРАТ</h1>
+        <h1>ОППОНИРОВАНИЕ ДИССЕРТАЦИЙ</h1>
         </div>
         <a target='blank' href='Оппонирование диссертаций.pdf'>
         <button>PDF</button>
