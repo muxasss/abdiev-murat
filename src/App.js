@@ -19,6 +19,7 @@ import Conferance from './Components/Conferance/Conferance';
 import Opposition from './Components/Opposition/Opposition';
 import NIRS from './Components/NIRS/NIRS';
 import AcademyMobile from './Components/AcademyMobile/AcademyMobile';
+import NavFooter from './Components/NavFooter/NavFooter';
 
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
         <Route path='/nirs' element={< NIRS />} />
         <Route path='/academymobile' element={< AcademyMobile />} />
       </Routes>
-
+    <NavFooter />
     </Router>
   );
 }
