@@ -9,6 +9,9 @@
     font-size: 50px;
     color: #ffffff;
 }
+.conferance-section-2 {
+    height: 300px;
+}
 .conferance-section-2 h1 {
     color: #313131;
         font-weight: 600;
@@ -27,4 +30,5 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
+    margin-top: 50px;
 }

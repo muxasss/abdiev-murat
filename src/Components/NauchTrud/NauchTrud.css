@@ -9,6 +9,9 @@
     font-size: 50px;
     color: black;
 }
+.nauchtrud-section-2 {
+    height: 300px;
+}
 .nauchtrud-section-2 h1 {
     color: #313131;
         font-weight: 600;
@@ -21,6 +24,7 @@
     font-size: 17px;
     color: #fff;
     font-weight: 700;
+    margin-top: 50px;
     margin-left: 50px;
     cursor: pointer;
 }

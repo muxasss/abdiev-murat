@@ -13,6 +13,9 @@
     color: #313131;
         font-weight: 600;
 }
+.lessonbooks-section-2 {
+    height: 300px;
+}
 .lessonbooks-section-h1 {
     display: flex;
         justify-content: center;
@@ -27,4 +30,5 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
+    margin-top: 50px;
 }

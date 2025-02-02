@@ -13,6 +13,9 @@
     color: #313131;
         font-weight: 600;
 }
+.opposition-section-2 {
+    height: 300px;
+}
 .opposition-section-h1 {
     display: flex;
         justify-content: center;
@@ -24,6 +27,7 @@
     border: 1px solid #5798ff;
     font-size: 17px;
     color: #fff;
+    margin-top: 50px;
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;

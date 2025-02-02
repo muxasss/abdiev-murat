@@ -10,7 +10,7 @@
 }
 
 .organization-section2 {
-    
+    height: 400px;
 }
 .organization-section-h1 h1 {
     color: #313131;
@@ -26,6 +26,7 @@
     font-weight: 600;
     font-size: 22px;
     margin-left: 50px;
+    margin-top: 50px;
     width: 60%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

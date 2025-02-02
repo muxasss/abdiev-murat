@@ -3,11 +3,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
     background: url('https://adukar.com/images/photo/kak-professionalno-sostavit-rezyume-3.jpg');
 }
 .resume-section h1 {
     font-size: 50px;
     color: #292929;
+}
+.resume-section-2 {
+    height: 300px;
 }
 .resume-section-2 h1 {
     color: #313131;
@@ -35,6 +39,7 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
+    margin-top: 50px;
 }
 
 

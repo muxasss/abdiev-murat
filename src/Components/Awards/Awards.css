@@ -19,6 +19,9 @@
     display: flex;
     justify-content: center;
 }
+.Awards-section2 {
+    height: 300px;
+}
 .Awards-section2 button {
     height: 50px;
     width: 130px;
@@ -29,4 +32,5 @@
     font-weight: 700;
     margin-left: 50px;
     cursor: pointer;
+    margin-top: 50px;
   }
