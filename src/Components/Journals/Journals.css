@@ -3,11 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('https://minfin.gospmr.org/wp-content/uploads/2023/10/seminar-30621.jpeg');
+    background-color: #001f3f;
 }
 .journals-section h1 {
     font-size: 50px;
-    color: #111111;
+    color: #ffffff;
 }
 .journals-section-2 {
     height: 450px;
