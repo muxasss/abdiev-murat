@@ -33,7 +33,7 @@ const Navbar = () => {
       <ul className={`menu ${isMenuOpen ? 'open' : ''}`}>
         <li>
           <Link to="/" className="menu-link">
-            Главная
+            ГЛАВНАЯ
           </Link>
         </li>
         <li
@@ -42,7 +42,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsAboutDropdownOpen(false)}
         >
           <Link className="menu-link">
-            Обо мне
+            ОБО МНЕ
           </Link>
           {isAboutDropdownOpen && (
             <ul className="dropdown-menu">
@@ -80,7 +80,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsPublicationsDropdownOpen(false)}
         >
           <Link className="menu-link">
-            Публикации
+            ПУБЛИКАЦИИ
           </Link>
           {isPublicationsDropdownOpen && (
             <ul className="dropdown-menu">
@@ -123,7 +123,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsResearchDropdownOpen(false)}
         >
           <Link className="menu-link">
-            Проведение и руководство <br></br> в научных исследованиях
+            ПРОВЕДЕНИЕ И РУКОВОДСТВО <br></br> В НАУЧНЫХ ИССЛЕДОВАНИЯХ
           </Link>
           {isResearchDropdownOpen && (
             <ul className="dropdown-menu">
@@ -152,7 +152,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsMobilityDropdownOpen(false)}
         >
           <Link className="menu-link">
-          Научно-исследовательская <br></br> деятельность 
+          НАУЧНО-ИССЛЕДОВАТЕЛЬСКАЯ <br></br> ДЕЯТЕЛЬНОСТЬ 
           </Link>
           {isMobilityDropdownOpen && (
             <ul className="dropdown-menu">
@@ -196,7 +196,7 @@ const Navbar = () => {
           onMouseLeave={() => setIsSeminarsDropdownOpen(false)}
         >
           <Link className="menu-link">
-            Участие в семинарах <br></br> и тренингах
+            УЧАСТИЕ В СЕМИНАРАХ <br></br> И ТРЕНИНГАХ
           </Link>
           {isSeminarsDropdownOpen && (
             <ul className="dropdown-menu">
